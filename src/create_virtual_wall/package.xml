@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>create_virtual_wall</name>
+  <version>0.0.0</version>
+  <description>The create_virtual_wall package</description>
+
+  <maintainer email="ivanpauno@ekumenlabs.com">ivanpauno</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>ca_gazebo</exec_depend>
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_plugins</depend>
+
+  <export>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>
