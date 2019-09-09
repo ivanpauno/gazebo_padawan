@@ -1,6 +1,8 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
   <model name="virtual_wall">
+    <plugin name="virtual_wall_plugin" filename="libvirtual_wall.so"/>
+
     <link name="base">
       <pose>0 0 0.055 0 0 0</pose>
       <collision name="base_collision">
